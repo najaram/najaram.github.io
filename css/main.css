@@ -16,6 +16,9 @@ footer ul{
 	list-style: none;
 	padding: 0;
 }
+.title-bar ul{
+	padding-left: 0;
+}
 .title-bar li{
 	display: inline-block;
 	padding: 15px 7px 0;
@@ -30,4 +33,16 @@ footer ul{
 }
 a{
 	color: #333;
+}
+
+h1, h2, h4{
+	font-weight: bold;
+}
+
+h1{
+	font-size: 4em;
+}
+
+hr{
+	border-top: 1px solid #dedede;
 }
