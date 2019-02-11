@@ -2,6 +2,10 @@ body{
 	font-family: 'Lato', sans-serif;
 	margin: 0;
 	overflow-x: hidden;
+	color: #2a2a2a;
+	line-height: 1.8em;
+	padding: 40px 0 0;
+    background-color: #fefefe;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
@@ -13,46 +17,34 @@ header{
 img{
 	border-radius: 100%;
 	width: 17%;
-	border: 4px solid #f2f2f2;
+	border: 4px solid #2a2a2a;
 }
 
 header .navbar {
 	margin-bottom: 0;
 }
 
-body {
-	background: #2a2a2a;
-	padding: 40px 0;
-}
-
 .stack {
-	margin: 100px 0;
 	text-align: center;
 }
 
 .stack h2 {
 	text-align: center;
-	color: #f2f2f2;
 	margin-bottom: 35px;
 }
 
 .stack ul li {
 	display: inline-block;
-    margin: 0 15px;
+    margin: 0 7px;
 }
 
 .stack h3 {
 	text-align: center;
-	color: #f2f2f2;
 	margin-bottom: 25px;
 }
 
-.stack p {
-	color: #f2f2f2;
-}
-
 .frontend {
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 .banner__one {
@@ -62,7 +54,7 @@ body {
 .banner__one h1 {
 	font-size: 45px;
 	margin: 15px 0;
-	color: #f2f2f2;
+	color: #2a2a2a;
 	min-height: 50px;
 }
 
@@ -81,10 +73,15 @@ body {
 }
 .title-bar li i{
 	padding-right: 7px;
-	color: #f2f2f2;
+	color: #2a2a2a;
 }
+
+.title-bar {
+	padding-bottom: 15px;
+}
+
 .title-bar a {
-	color: #ffffff;
+	color: #2a2a2a;
 }
 
 a{
@@ -96,14 +93,28 @@ h1{
 	font-size: 4em;
 }
 
+h3 {
+	margin: 25px 0;
+}
+
 hr{
 	border-top: 1px solid #dedede;
 }
 
 p {
-	font-size: 16px;
+	font-size: 18px;
 }
 
+.experience {
+	padding: 80px 0;
+	background: #2a2a2a;
+	color: #cacaca;
+}
+
+.experience h2 {
+	text-align: center;
+	margin-bottom: 35px;
+}
 
 
 @media (max-width: 480px) {
