@@ -1,11 +1,11 @@
 body{
-	font-family: 'Lato', sans-serif;
+	font-family: 'PT Serif', serif;
 	margin: 0;
 	overflow-x: hidden;
 	color: #2a2a2a;
 	line-height: 1.8em;
-	padding: 40px 0 0;
-    background-color: #fefefe;
+    background: rgb(50,119,119);
+	background: linear-gradient(90deg, rgba(50,119,119,1) 5%, rgba(68,187,187,1) 50%, rgba(50,119,119,1) 95%);
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
@@ -49,6 +49,7 @@ header .navbar {
 
 .banner__one {
 	text-align: center;
+	padding: 150px 0 150px;
 }
 
 .banner__one h1 {
@@ -56,6 +57,10 @@ header .navbar {
 	margin: 15px 0;
 	color: #2a2a2a;
 	min-height: 50px;
+}
+
+.banner__one p {
+	margin: 0 150px;
 }
 
 .banner__one h4 {
@@ -102,24 +107,29 @@ hr{
 }
 
 p {
-	font-size: 18px;
+	font-size: 16px;
 }
 
-.experience {
-	padding: 80px 0;
-	background: #2a2a2a;
-	color: #cacaca;
+.fa {
+	font-size: 2em;
 }
 
-.experience h2 {
-	text-align: center;
-	margin-bottom: 35px;
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+	background: $background
 }
 
 
 @media (max-width: 480px) {
 	.banner__one img {
 		width: 50%;
+	}
+
+	.banner__one p {
+		margin: 0 15px;
 	}
 
 	ul {
